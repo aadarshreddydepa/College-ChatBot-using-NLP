@@ -55,6 +55,12 @@ A lightweight and interactive chatbot designed to answer frequently asked colleg
 
 ---
 
+## Streamlit app Link 
+
+https://chatbotforcollege.streamlit.app/
+
+---
+
 ## 🎯 Use Cases
 
 College websites
