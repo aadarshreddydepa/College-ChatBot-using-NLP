@@ -1,0 +1,124 @@
+{
+    "admission": {
+      "questions": [
+        "How do I apply for admission?",
+        "What is the admission process?",
+        "How to get admission?",
+        "What is the eligibility for admission?",
+        "Do you have entrance exams?",
+        "When does the admission process start?",
+        "How can I apply offline?",
+        "Is there any management quota?",
+        "Can international students apply?"
+      ],
+      "answer": "You can apply online through our college portal. Admissions are based on entrance exams and merit. Eligibility varies by course."
+    },
+    "fees": {
+      "questions": [
+        "What is the fee structure?",
+        "How much is the tuition fee?",
+        "Tell me the course fees",
+        "Is there any scholarship available?",
+        "What is the hostel fee?",
+        "Are there any extra charges?",
+        "Can I pay fees in installments?",
+        "What is the admission fee?",
+        "Is the fee refundable?"
+      ],
+      "answer": "The fee varies by course. For B.Tech, it's ₹90,000 per year. Hostel fee is ₹45,000. Scholarships are available for merit and reserved categories."
+    },
+    "placement": {
+      "questions": [
+        "What about campus placements?",
+        "Do you have placement support?",
+        "Tell me about job opportunities",
+        "What is the average package offered?",
+        "Which companies visit for placements?",
+        "Do you offer internship support?",
+        "Is placement 100% guaranteed?",
+        "What is the highest package so far?",
+        "How many students got placed last year?"
+      ],
+      "answer": "Yes, our placement cell invites companies like Infosys, TCS, Wipro, and Amazon. The average package is ₹4.5 LPA. Internships are supported for all branches."
+    },
+    "courses": {
+      "questions": [
+        "What courses are available?",
+        "List of courses?",
+        "Do you offer Computer Science?",
+        "Is AI/ML offered in CSE?",
+        "Do you have data science specialization?",
+        "Are diploma courses available?",
+        "What is the duration of B.Tech?",
+        "Do you offer part-time courses?",
+        "Are there any certificate programs?"
+      ],
+      "answer": "We offer B.Tech (CSE, ECE, Civil, Mech), M.Tech, MBA, and diploma programs. Specializations in AI/ML, Data Science, and IoT are available in CSE."
+    },
+    "facilities": {
+      "questions": [
+        "Do you have a library?",
+        "Is there a hostel for girls?",
+        "What sports facilities are available?",
+        "Is there Wi-Fi on campus?",
+        "How is the canteen food?",
+        "Do you have transportation facilities?"
+      ],
+      "answer": "Yes, we offer hostel facilities for both boys and girls, a central library, sports complex, Wi-Fi-enabled campus, and college buses for transportation."
+    },
+    "contact": {
+      "questions": [
+        "How can I contact the college?",
+        "Phone number?",
+        "College email ID?",
+        "What is your address?",
+        "Where is the campus located?",
+        "What is your official website?",
+        "Do you have a mobile app?",
+        "What are your office timings?",
+        "Is the campus open on weekends?"
+      ],
+      "answer": "You can call us at +91-9876543210, email info@yourcollege.edu, or visit www.yourcollege.edu. Office hours are 9 AM to 5 PM, Monday to Saturday."
+    },
+    "departments": {
+      "questions": [
+        "Which departments are available?",
+        "Do you have a CSE department?",
+        "What departments are there in your college?",
+        "Is there an ECE department?",
+        "Tell me about the Mechanical department"
+      ],
+      "answer": "Our college has departments for CSE, ECE, EEE, Civil, Mechanical, MBA, Humanities, and Applied Sciences."
+    },
+    "scholarships": {
+      "questions": [
+        "Do you offer scholarships?",
+        "What scholarships are available?",
+        "Is there any scholarship for SC/ST students?",
+        "How can I apply for scholarships?",
+        "Is there a sports scholarship?"
+      ],
+      "answer": "Yes, we offer scholarships based on merit, category, and sports achievements. You can apply via the official portal during admission."
+    },
+    "hostel": {
+      "questions": [
+        "Is hostel available for first-year students?",
+        "What are the hostel rules?",
+        "How many students in one room?",
+        "Do you provide food in hostel?",
+        "What is the hostel fee?"
+      ],
+      "answer": "Yes, hostels are available for both boys and girls. Rooms are 2/3 sharing. Mess food is provided and included in the fee."
+    },
+    "exams": {
+      "questions": [
+        "How many internal exams are there?",
+        "Do you conduct mid exams?",
+        "When are the final exams held?",
+        "How are internal marks calculated?",
+        "What is the pass mark?"
+      ],
+      "answer": "There are 2 internal exams and one final exam per semester. Internal marks contribute to 25% of the total. Pass mark is 40%."
+    }
+  }
+  
