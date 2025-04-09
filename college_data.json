@@ -119,6 +119,36 @@
         "What is the pass mark?"
       ],
       "answer": "There are 2 internal exams and one final exam per semester. Internal marks contribute to 25% of the total. Pass mark is 40%."
+    },
+    "events": {
+      "questions": [
+        "Do you conduct fests?",
+        "What events are conducted annually?",
+        "Is there a tech fest?",
+        "Do you have sports day?",
+        "When is the cultural fest held?"
+      ],
+      "answer": "Yes, we organize annual technical fests, cultural fests, and sports day. The main fest is usually held in February every year."
+    },
+    "faculty": {
+      "questions": [
+        "Who teaches CSE subjects?",
+        "Are your faculty experienced?",
+        "How many professors are there?",
+        "Is there PhD faculty?",
+        "Do you have guest lectures?"
+      ],
+      "answer": "Our faculty includes experienced professors, many with PhDs. We also host guest lectures from industry experts regularly."
+    },
+    "library": {
+      "questions": [
+        "How big is the library?",
+        "Do you have digital library access?",
+        "Are books issued for home?",
+        "Can we use library on weekends?",
+        "What are library timings?"
+      ],
+      "answer": "Our library has 25,000+ books and digital access. Books can be borrowed for 7 days. Library is open 9 AM – 6 PM on weekdays and Saturdays."
     }
   }
   
