@@ -8,7 +8,7 @@ with open("college_data.json", "r") as f:
 
 # Streamlit Page Config
 st.set_page_config(
-    page_title="🎓 Ghibli College Chatbot",
+    page_title="🎓 College Chatbot",
     page_icon="🤖",
     layout="centered"
 )
