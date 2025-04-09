@@ -1,4 +1,4 @@
-# 🎓 College Query Chatbot using NLP 🌸
+# 🎓 College Query Chatbot using NLP
 
 A lightweight and interactive chatbot designed to answer frequently asked college-related queries using Natural Language Processing (NLP). Built with Python and Streamlit, and wrapped in a Studio Ghibli-inspired UI for a cozy and welcoming experience! ✨
 
