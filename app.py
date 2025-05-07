@@ -5,7 +5,6 @@ import difflib
 # Load the JSON data
 with open("college_data.json", "r") as f:
     data = json.load(f)
-
 # Streamlit Page Config
 st.set_page_config(
     page_title="🎓 College Chatbot",
@@ -61,11 +60,38 @@ user_input = st.text_input("💬 Your Question:")
 
 # Simple matching logic
 def get_response(user_input, data):
+    # Convert user input to lowercase for case-insensitive matching
+    user_input_lower = user_input.lower()
+    
+    # Define keyword mappings for different categories
+    keyword_mappings = {
+        'admission': ['admission', 'apply', 'enroll', 'entrance', 'eligibility'],
+        'fees': ['fees', 'fee', 'tuition', 'cost', 'payment', 'scholarship'],
+        'placement': ['placement', 'job', 'career', 'internship', 'company'],
+        'courses': ['courses', 'course', 'program', 'study', 'subject'],
+        'facilities': ['facilities', 'infrastructure', 'library', 'hostel', 'sports', 'wifi', 'canteen'],
+        'contact': ['contact', 'phone', 'email', 'address', 'location', 'website'],
+        'departments': ['departments', 'department', 'cse', 'ece', 'mechanical'],
+        'scholarships': ['scholarships', 'scholarship', 'financial aid'],
+        'hostel': ['hostel', 'accommodation', 'room', 'mess'],
+        'exams': ['exams', 'exam', 'test', 'assessment', 'marks'],
+        'events': ['events', 'fest', 'cultural', 'technical', 'sports day'],
+        'faculty': ['faculty', 'professor', 'teacher', 'staff'],
+        'library': ['library', 'books', 'digital', 'borrow']
+    }
+    
+    # Check if any keyword from the mappings is present in the user input
+    for category, keywords in keyword_mappings.items():
+        if any(keyword in user_input_lower for keyword in keywords):
+            return data[category]['answer']
+    
+    # If no keyword match is found, use the original fuzzy matching logic
     for category, qa in data.items():
-        questions = qa["questions"]
-        match = difflib.get_close_matches(user_input.lower(), [q.lower() for q in questions], n=1, cutoff=0.4)
+        questions = qa['questions']
+        match = difflib.get_close_matches(user_input_lower, [q.lower() for q in questions], n=1, cutoff=0.4)
         if match:
-            return qa["answer"]
+            return qa['answer']
+    
     return "I'm not sure about that yet, but a magical owl might know. Try asking something else! 🦉"
 
 # Show result
