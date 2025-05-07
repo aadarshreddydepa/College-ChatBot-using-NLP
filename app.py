@@ -66,7 +66,7 @@ def get_response(user_input, data):
     # Define keyword mappings for different categories
     keyword_mappings = {
         'admission': ['admission', 'apply', 'enroll', 'entrance', 'eligibility'],
-        'fees': ['fees', 'fee', 'tuition', 'cost', 'payment', 'scholarship'],
+        'fees': ['fees', 'fee', 'tuition', 'cost', 'payment'],
         'placement': ['placement', 'job', 'career', 'internship', 'company'],
         'courses': ['courses', 'course', 'program', 'study', 'subject'],
         'facilities': ['facilities', 'infrastructure', 'library', 'hostel', 'sports', 'wifi', 'canteen'],
